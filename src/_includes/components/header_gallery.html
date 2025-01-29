@@ -49,7 +49,7 @@
   #hero-2219 .cs-content {
     /* top changes to 100px on tablet */
     /* bottom 60px - 180px */
-    padding: 8.5rem 2rem clamp(3.75rem, 12vw, 11.25rem);
+    padding: 13.5rem 2rem clamp(3.75rem, 12vw, 11.25rem);
     box-sizing: border-box;
     
     flex-direction: column;
@@ -162,7 +162,7 @@
    height: 100vh;
    min-height: 790px;
     object-fit: cover;
-    margin:0px 0px 0px calc(50% - 900px);
+    margin:0px 0px 0px 0px;
     opacity: .5;
   }
   #hero-2219 .cs-background::before {
@@ -195,7 +195,7 @@ opacity: .0;
     text-align: left;
     width: 97%;
     max-width: 90%;
-    padding-top: 9.25rem;
+    padding-top: 220px;
     align-items: flex-start;
     min-height: 500px;
     margin: 0px;
@@ -217,7 +217,7 @@ opacity: .0;
    height: 100vh;
    min-height: 870px;
     object-fit: cover;
-    margin:0px 0px 0px calc(50% - 900px);
+    margin:0px 0px 0px 0px;
   }
  
 }
@@ -240,7 +240,7 @@ opacity: .0;
     box-sizing: content-box;
     /* 16px - 170px */
     margin: 0px auto;
-    padding-top: 120px;
+    padding-top: 220px;
     
   }
   #hero-2219 {height: 85vh;}
@@ -251,7 +251,7 @@ opacity: .0;
    min-height: 930px;
     object-fit: cover;
     margin:0px 0px 0px 0px;
-    opacity: 1;
+    opacity: .5;
   }
 
 }
@@ -274,7 +274,7 @@ opacity: .0;
    box-sizing: content-box;
    /* 16px - 170px */
    margin: 0px auto;
-   padding-top:160px;
+   padding-top: 220px;
    
  }
 }
@@ -287,14 +287,10 @@ opacity: .0;
   </svg>
   <div class="cs-container">
       <div class="cs-content">
-          <h1 data-aos="fade-up" style="display: block;"><span class="cs-topper" style="display: inline;">{{client.address.city}}  Local</span>
-          <span class="cs-title" data-aos="fade-up" style="color: var(--primaryDark); display: block;">{{client.service}} Photos</span></h1>
+          <h1 data-aos="fade-up" style="display: block;"><span class="cs-topper" style="display: inline-block; margin-bottom: 10px;">Our <span style="color: var(--primary);"> Work</span></span>
+          <span class="cs-title" data-aos="fade-up" style="color: var(--primaryDark); display: block;">Photos of past work</span></h1>
     
-          <p class="cs-text" style="color: #000;">
-            We provide expert services to make your life easier      </p>
-            
-          <a style="margin-top: 30px;" href="tel:{{client.phoneForTel}}" class="cs-button-solid">Get Your Free Quote</a>
-           
+          {% include 'components/cta_button.html' %}
 
       
       </div>
