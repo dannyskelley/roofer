@@ -1,9 +1,12 @@
 {
-    "name": "Detroit Pro Roofing",
+    "name": "Tenacious Gutter Systems",
     "service": "Roofing",
     "email": "info@designgandalf.com",
-    "phoneForTel": "313-801-7388",
-    "phoneFormatted": "313-801-7388",
+    "nextdoor": " https://nextdoor.com/pages/tenacious-gutters-katy-tx/",
+    "facebook": " https://www.facebook.com/profile.php?id=61565008321959&sk=about",
+    "google": " https://maps.app.goo.gl/avnrufv3m6ZxNUnt9",
+    "phoneForTel": "281-744-1896",
+    "phoneFormatted": "12817441896",
     "serviceAreas": {
         "areaOne": "Daytona, FL",
         "areaTwo": "Port Orange, FL"

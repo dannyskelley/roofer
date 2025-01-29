@@ -14,7 +14,7 @@
 @media only screen and (min-width: 0rem) {
   #cs-footer-1763 {
     padding: var(--sectionPadding);
-
+padding-top: 0px;
     padding-bottom: clamp(1.875rem, 5vw, 3.125rem);
     /* change this to match the color of the section above the footer */
     background-color: #fff;
@@ -88,6 +88,7 @@
     height: auto;
     margin: 0 0 1rem 0;
     display: block;
+ 
   }
   #cs-footer-1763 .cs-text {
     max-width: 44rem;
@@ -98,6 +99,7 @@
   #cs-footer-1763 .cs-logo-img {
     width: 100%;
     height: auto;
+    border-radius: 999px;
     max-width: 500px;
   }
   #cs-footer-1763 .cs-contact {
@@ -289,7 +291,7 @@
     <!-- Logo Group -->
     <div class="cs-logo-group" style="margin: 0px auto 80px; max-width: 80rem;">
         <a aria-label="go back to home" class="cs-logo" href="">
-            <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/logo_dark.svg" alt="logo" width="240" height="32">
+            <img class="cs-logo-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/images/logo.jpg" alt="logo" width="240" height="32">
         </a>
         
     </div>
@@ -305,13 +307,9 @@
                 <img class="cs-icon" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Icons/gym-footer-location-pin.svg" alt="location" loading="lazy" decoding="async" height="32" width="32">
             </picture>
             <div class="cs-flex">
-                <h3 class="cs-h3">Location</h3>
+                <h3 class="cs-h3">Service Area</h3>
                 <span class="cs-card-info">
-                    
-                    {{client.address.lineOne}}<BR>
-                    {{client.address.city}}
-                    {{client.address.state}}
-                    {{client.address.zip}}
+                  Houston Texas and Surrounding Areas
                 </span>
             </div>
         </div>
@@ -447,7 +445,7 @@
                 {% include 'components/social-links.html' %}
             </div>
             <div class="cs-contact-info">
-                <span class="cs-topper">Call Us Any Time</span>
+                <span class="cs-topper">Call Or Text Us Any Time</span>
                 <a href="tel:{{client.phoneForTel}}" class="cs-contact-link">{{client.phoneForTel}}</a>
             </div>
        
