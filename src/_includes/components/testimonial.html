@@ -26,7 +26,7 @@
     height: auto;
     object-fit: cover;
     position: absolute;
-    bottom: 0px;
+    bottom: -1px;
     left: 50%;
     z-index: 2;
     transform: translateX(-50%);
@@ -199,15 +199,17 @@
   <section id="reviews-245">
 
     <div class="cs-container">
-        <div class="cs-content">
-            <span data-aos="fade-up" class="cs-topper">Our Reviews</span>
-            <h2 class="cs-title">What Our Clients Say About Us</h2>
+        <div class="cs-content" style="text-align: center; margin: auto;">
+            <h1 data-aos="fade-up" style="display: block; text-align: center; "><span class="cs-topper" style="display: inline;"> <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16">
+            </span>
+            <span class="cs-title" data-aos="fade-up" style="color: var(--primaryDark); display: block;text-align: center; margin: auto;">5 Star Gutter Services Reviews</span></h1>
+            <span class="cs-topper" style="margin: auto;  margin-top:40px; color: #666">Comming Soon!</span>
             <!--<p class="cs-text">
               I value my customers’ homes and businesses and treat them as though they were my own. I clean up thoroughly and leave your property as I found it. It's all about the service: I treat you the way I would want to be treated. 
             </p>-->
         </div>
-        <ul class="cs-card-group">
-            <!-- Review -->
+       <!--<ul class="cs-card-group">
+            
             <li class="cs-item">
                 <img class="cs-item-img" aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/google.svg" alt="profile picture" width="72" height="72">
                 <p class="cs-item-text">
@@ -291,14 +293,13 @@
                     <img class="cs-item-stars" aria-hidden="true" loading="lazy" decoding="async" src="https://csimg.nyc3.digitaloceanspaces.com/Reviews/stars-yellow.svg" alt="stars" width="96" height="16">
                 </div>
             </li>
-        </ul>
+        </ul>-->
         
-  <div class="cs-flex">
+
   
-        <a target="_blank" href="https://www.google.com/search?q=martel+electrical+port+orange&client=firefox-b-1-d&sca_esv=1926c2955f272b3e&sxsrf=ADLYWIJP2w0iJxZ0o6AGxJc3r3luLoUurQ%3A1723061679133&ei=r9WzZvrqB5PaptQP7u2w4QE&ved=0ahUKEwi6_r362OOHAxUTrYkEHe42LBwQ4dUDCBA&uact=5&oq=martel+electrical+port+orange&gs_lp=Egxnd3Mtd2l6LXNlcnAiHW1hcnRlbCBlbGVjdHJpY2FsIHBvcnQgb3JhbmdlMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHMgoQABiwAxjWBBhHSOQKUABYAHABeACQAQCYAZMBoAGTAaoBAzAuMbgBA8gBAJgCAaACB5gDAIgGAZAGBJIHATGgB74C&sclient=gws-wiz-serp#lrd=0x88e6d7d01301bbd3:0x3985f4e7004a0795,1,,,," class="cs-button-solid">Leave Us a Review</a>
+        <a class="cs-button-solid" style="margin: 0px; display: inline-block;" target="_blank" href="{{client.googleLeaveReview}}" >Leave Us a Review</a>
   
-  
-      </div>
+ 
       
       <svg class="cs-graphic cs-graphic-light" width="1920" height="188" viewBox="0 0 1920 188" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
         <path d="M1920 45.8671C1835.33 45.8671 1715.47 60.6671 1549.2 104.534C1115.6 218.4 932.267 0.000366211 466.533 0.000366211C218.933 0.000366211 172.8 45.8671 0.133333 45.8671L0 187.934H1920V45.8671Z" fill="#fff"></path>
